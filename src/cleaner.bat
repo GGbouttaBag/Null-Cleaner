@@ -1,5 +1,5 @@
 @echo off
-echo Welcome to Pc Cleaner
+echo PC Cleaner By : GlockBaby https://discord.gg/QtRRhpZg
 echo Cleaning temporary files
 color 0C
 del /s /f /q %SYSTEMDRIVE%\windows\temp\*.*
@@ -17,6 +17,6 @@ del /q /f /s %SYSTEMDRIVE%\*.log
 del /q /f /s %SYSTEMDRIVE%\*.bak
 del /q /f /s %SYSTEMDRIVE%\*.gid
 echo Cleaned logs
-echo Thanks for using Pc Cleaner
+echo Thanks for using PC Cleaner
 pause
 cls
